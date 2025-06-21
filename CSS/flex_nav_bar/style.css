@@ -1,0 +1,27 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+.nav-title,.active,.btn{
+    color: white;
+}
+.nav , .nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: rgb(39, 39, 39);
+}
+li{
+    margin-left: 20px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(196, 196, 196);
+}
+.btn{
+    background-color: rgb(2, 180, 180);
+    border: solid black;
+    box-shadow: 3px 3px 0px black;
+}

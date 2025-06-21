@@ -1,0 +1,35 @@
+.article{
+    position: relative;
+    border: 1px solid black;
+    width: 700px;
+    height: 350px;
+    font-family: cursive;
+    margin: 0 auto;
+}
+.cover{
+    background-color:#17a2b8;
+    width: 700px;
+    height: 110px
+}
+.profile_pic{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    height: 110px;
+    border-radius: 50%;
+}
+.location a{    
+    color: black;  
+}
+.icons-main{
+    height: 20px;
+}
+.edit a{
+    display: inline-block;    
+    color: rgb(51, 0, 255);
+}
+.main{
+    position: relative;
+    top: 35px;
+    left: 10px;
+}
