@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+</head>
+<body>
+    
+    <style>
+
+        body
+        {
+            font-family: cursive;
+            background-color: rgb(187, 225, 248);
+        
+        }
+
+    </style>
+
+    <h1>Registration Form</h1>
+
+    <form action="#">
+        <div>
+
+            <label for="fname">First Name:*</label>
+            <input type="text" id="fname" name="first_name" placeholder="Mahmoud">
+
+            <br><br>
+
+            <label for="lname">Last Name:*</label>
+            <input type="text" id="lname" name="last_name" placeholder="Joum'a">
+
+        </div>
+        <br>
+        <div>
+
+            <label for="email">Email Address:*</label>
+            <input type="email" id="email" name="email_address" placeholder="mahmoud.shuman@outlook.com">
+            
+            <br><br>
+
+            <label for="pw">Password:*</label>
+            <input type="password" id="pw" name="password" placeholder="creat a password">
+            
+            <br><br>
+
+            <label for="cpw">Confirm Password:*</label>
+            <input type="password" id="cpw" name="confirm_password" placeholder="creat a password">
+        </div>
+
+            <br>
+
+            <label for="bd">Birthday:*</label>
+            <input type="date" id="bd"  name="Birthday">
+
+            <br><br>
+        <div>
+
+            <label>Gender Identity:</label>
+            
+            <input type="radio" id="mr" name="gender" value="male">
+            <label for="mr">Male</label>
+
+            <input type="radio" id="mrs" name="gender" value="femail">
+            <label for="mrs">Female</label>
+
+            <input type="radio" id="ret" name="gender" value="Retarded">
+            <label for="ret">Retarded</label>
+            
+        </div>   
+            <br>
+        <div>
+            
+            <label for="self_description">A short description about myself:</label>
+            
+            <br>
+            <textarea name="self_description" cols="30" rows="3"></textarea>
+
+        </div>
+
+            <br>
+
+        <div>
+
+            <label for="fav_lang">Favorite Language:</label>
+            <select id="fav_lang" name="fav_lang">
+                <option value="JS">JavaScript</option>
+                <option value="HTMl">HTML</option>
+                <option value="CSS">CSS</option>
+            </select>
+
+        </div>
+
+        <br>
+
+        <input type="checkbox" id="agree" name="accept">
+        <label for="agree">Yes, I would like to receive periodic email updates</label>
+
+            <br><br>
+
+            <input type="submit" value="creat account">
+           
+            <br>
+
+            <p>* Indicates a required field</p>
+
+    </form>
+    
+</body>
+</html>
