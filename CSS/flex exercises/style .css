@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    /* flex-direction: row; */
+    flex-flow: row wrap;
+    /* flex-wrap: wrap; */
+    background-color: green;
+    padding: 10px;
+    height: 200px;
+    
+}
+.sub{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: yellow;
+    width: 30px;
+    
+}

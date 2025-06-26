@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <h1 id="title">DojoWeather</h1>
+        <ul>
+            <li onclick="showAlert()">Bubank</li>
+            <li onclick="showAlert()">chicago</li>
+            <li onclick="showAlert()">Dallas</li>
+        </ul>
+    </nav>
+    <main>
+        <section id="curent-city">
+            <h2>San Jose</h2>
+            <div id="choosetemp">
+                <label for="tempdegree">show temperature in</label>
+                <select onchange="changeTemp()" name="tempdegree" id="tempdegree">
+                    <option value="c">°C</option>
+                    <option value="f">°F</option>
+                </div>
+            </select>
+        </section>
+        <section id="days">
+            <div class="four-days">
+                <h3>Today</h3>
+                <img src="./assets/some_rain.png" alt="rain" class="sky-status">
+                <p class="weather-description">some rain</p>
+                <div class="max-min-temp">
+                    <p class="max-temp">24°</p>
+                    <p class="min-temp">18°</p>
+                </div>
+            </div>
+            <div class="four-days">
+                <h3>Tomorrow</h3>
+                <img src="./assets/some_sun.png" alt="suny" class="sky-status">
+                <p class="weather-description">some sun</p>
+                <div class="max-min-temp">
+                    <p class="max-temp">27°</p>
+                    <p class="min-temp">19°</p>
+                </div>
+            </div>
+            <div class="four-days">
+                <h3>Friday</h3>
+                <img src="./assets/some_clouds.png" alt="cloudy" class="sky-status">
+                <p class="weather-description">some clouds</p>
+                <div class="max-min-temp">
+                    <p class="max-temp">21°</p>
+                    <p class="min-temp">16°</p>
+                </div>
+            </div>
+            <div class="four-days">
+                <h3>Saturday</h3>
+                <img src="./assets/some_sun.png" alt="suny" class="sky-status">
+                <p class="weather-description">some sun</p>
+                <div class="max-min-temp">
+                    <p class="max-temp">26°</p>
+                    <p class="min-temp">21°</p>
+                </div>
+            </div>
+        </section>
+        <section id="cookies">
+            <img src="./assets/cookie.png" alt="cookie" id="cookie-icon">
+            <div id="cookeis-info">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to pesonalize content and ads, 
+                    to provide social media features and to analyse our traffic. <span>Read more...</span>
+                </p>
+            </div>
+            <button id="accept-btn" onclick="removeCookies()">I Accept</button>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+header , nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+.navitems{
+    padding: 3px 10px;
+    text-decoration: none;
+}
+.navitems,#study_date{
+    color: rgb(170, 170, 170);
+}
+#profile, #myprofile ,#navbtn,#education_title,.Connections_titles{
+    color: white;
+}
+#navbtn{
+    background-color: #17a2b8;
+    border: solid black;
+    box-shadow: 3px 3px 0px black;
+    margin: 10px;
+}
+main{
+    margin: 3%;
+    display: flex;
+    justify-content: center; 
+    vertical-align: top; 
+}
+.user_details{
+    border: 1px solid black;
+    width: 700px;
+    margin-bottom: 2%;
+}
+.cover{
+    background-color:#17a2b8;
+    width: 700px;
+    height: 110px;
+}
+.profile_pic{
+    position: relative;
+    top: 55px;
+    left: 30px;
+    height: 110px;
+    border-radius: 50%;
+}
+.user_bio{
+    margin: 7% 0% 2% 3%;
+}
+.location,.edit{
+    margin: 10px 0;
+}
+.icons-main{
+    height: 20px;
+}
+.Connections-imgs{
+    height: 30px;
+    border-radius: 50%;
+    margin: 0px 5px 10px 0px;
+}
+#education_title , .Connections_titles{
+    background-color: rgb(45, 45, 45);
+}
+#education_title{
+    padding: 10px 20px;
+}
+.Connections_titles,ul{
+    padding: 20px;
+    font-size: large;
+}
+li{
+    list-style-type: none;
+    margin: 10px;
+}
+.side-bar{
+    width: 270px;
+    margin:0 0 20px 20px;
+    border: 1px solid black;
+}
+.names{
+    display: flex;
+    justify-content: space-between;
+}
+.Connection_Requests, .your_connections, footer{
+    padding: 10px;
+}
+.person_pic_and_name{
+    display: flex;
+}
+.Connections_numbers{
+    color: rgb(45, 45, 45);
+    background-color: rgb(196, 194, 194);
+    border-radius: 50%;
+    padding: 0 6px;
+}
+footer{
+    border-top: solid 0.1px black;
+    color:rgb(51, 0, 255);
+    text-decoration: underline;
+}
+

@@ -1,0 +1,26 @@
+body{
+    font-family: cursive;                        
+}
+h1{
+    color: white;
+    background-color:black ;
+}
+#cloud{
+    color: rgb(129, 181, 255)
+}
+h2{
+    color: white;
+    text-align: center;
+    background-color: rgb(140, 33, 239);
+    font-style: italic;
+}
+h3{
+    background-color: lightskyblue;
+    text-align: right;
+    text-decoration: underline;
+}
+h1, h2, h3{
+    padding: 10px;
+    margin: 10px;
+    /* padding and margin are always in px */
+}
