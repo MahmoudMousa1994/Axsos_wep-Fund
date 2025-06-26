@@ -3,7 +3,7 @@
 
 <h2>This repository contains assignments and practice projects completed as part of the AXSOS Academy training program.</h2>
 
-<h2>📂 Folder Structure</h2>
+<h3>📂 Folder Structure</h3>
 
 HTML/ – Basic HTML assignments
 
