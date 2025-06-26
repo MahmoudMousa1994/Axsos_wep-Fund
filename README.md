@@ -1,4 +1,6 @@
-#📚 AXSOS Academy wep-Fund Assignments
+<h1>📚 AXSOS Academy wep-Fund Assignments </h1>
+
+
 This repository contains assignments and practice projects completed as part of the AXSOS Academy training program.
 
 📂 Folder Structure
