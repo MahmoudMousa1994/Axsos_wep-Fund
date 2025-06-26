@@ -24,6 +24,7 @@ Practice front-end web development skills
 Complete and submit weekly assignments
 
 ✅ Topics Covered
+
 HTML5 & CSS3
 
 JavaScript (DOM manipulation, functions, events)
