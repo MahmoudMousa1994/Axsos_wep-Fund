@@ -35,11 +35,7 @@ main{
     align-items: center;
     border: solid black;
     margin-top: 20px;
-<<<<<<< HEAD
     padding: 10px;
-=======
-    padding: 11px;
->>>>>>> master
 }
 .ninja h1{
     font-size: xx-large;
