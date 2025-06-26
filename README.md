@@ -3,7 +3,7 @@
 
 <h2>This repository contains assignments and practice projects completed as part of the AXSOS Academy training program.</h2>
 
-📂 Folder Structure
+<h3>📂 Folder Structure</h3>
 
 HTML/ – Basic HTML assignments
 
@@ -15,7 +15,7 @@ MIT/ – Screenshots and progress from MIT OpenCourseWare tasks
 
 dojo_weather/, dojo_pizzeria/, etc. – Mini projects and coding challenges
 
-💡 Purpose
+<h3>💡 Purpose</h3>
 
 This repo is used to:
 
@@ -25,7 +25,7 @@ Practice front-end web development skills
 
 Complete and submit weekly assignments
 
-✅ Topics Covered
+<h3>✅ Topics Covered</h3>
 
 HTML5 & CSS3
 
@@ -35,7 +35,7 @@ Flexbox & Grid layout
 
 Problem-solving and algorithm challenges
 
-👨‍💻 Author
+<h3>👨‍💻 Author</h3>
 
 Mahmoud Mousa
 
