@@ -11,8 +11,6 @@ CSS/ – Styling exercises using CSS
 
 JavaScript/ – Interactive web pages using JS
 
-MIT/ – Screenshots and progress from MIT OpenCourseWare tasks
-
 dojo_weather/, dojo_pizzeria/, etc. – Mini projects and coding challenges
 
 <h3>💡 Purpose</h3>
