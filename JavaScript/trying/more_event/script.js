@@ -1,6 +1,3 @@
-function over(element){
-    element.style.backgrounColor = "lime";
-}
-function out(element){
-    element.style.backgrounColor = "silver";
+function chlun(element){
+    alert("you piced"+element.value);
 }

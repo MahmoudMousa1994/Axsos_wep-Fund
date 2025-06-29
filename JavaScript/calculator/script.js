@@ -17,18 +17,26 @@ function calculate(){
     if (opperate ==='/'){
         let equal = num1/num2
     displayVariable.textContent = equal;
+    current = equal;
+    temp ="";
     }
     else if(opperate ==='*'){
         let equal = num1*num2
     displayVariable.textContent = equal;
+    current = equal;
+    temp ="";
     }
     else if(opperate ==='-'){
         let equal = num1-num2
     displayVariable.textContent = equal;
+    current = equal;
+    temp ="";
     }
     else if(opperate ==='+'){
         let equal = num1+num2
     displayVariable.textContent = equal;
+    current = equal;
+    temp ="";
     }
 }
 function clr(){
