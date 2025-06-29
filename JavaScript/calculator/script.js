@@ -17,20 +17,19 @@ function calculate(){
     if (opperate ==='/'){
         let equal = num1/num2
     displayVariable.textContent = equal;
-    }else if(opperate ==='*')
-    {
+    }
+    else if(opperate ==='*'){
         let equal = num1*num2
     displayVariable.textContent = equal;
-    }else if(opperate ==='-')
-    {
+    }
+    else if(opperate ==='-'){
         let equal = num1-num2
     displayVariable.textContent = equal;
-    }else if(opperate ==='+')
-    {
+    }
+    else if(opperate ==='+'){
         let equal = num1+num2
     displayVariable.textContent = equal;
     }
-    
 }
 function clr(){
     current="";

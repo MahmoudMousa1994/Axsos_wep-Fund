@@ -44,3 +44,6 @@ button{
 .operator{
     background-color: #ff8c00;
 }
+button:active {
+    transform: translateY(6px);
+}
