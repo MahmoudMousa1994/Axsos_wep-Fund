@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>GrowSync</title>
+</head>
+<body>
+    <!-- header section -->
+    <header class="display-flex space-between">
+        <div class="page-title display-flex">
+            <img src="./WebFund FSD-PT-OL-04-2025 -images and icons/logo.png" alt="logo">
+            <h1>GrowSync</h1>
+        </div>
+        <nav>
+            <ul class="nav-links display-flex space-between">
+                <li>Home</li>|
+                <li>About</li>|
+                <li>Services</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- main section -->
+    <main>
+        <!-- first section -->
+        <section class="first-sec display-flex space-between">
+            <div class="offers display-flex space-between">
+                <h1>We offer modern <br>solutions for <br>growing your <br>business</h1>
+                <p>we are team of talented designers making <br>websites</p>
+                <button onmouseover="btnBgColor(this)" onmouseout="btnBgColorOld(this)" >Get Started →</button>
+            </div>
+            <img src="./WebFund FSD-PT-OL-04-2025 -images and icons/hero-img.png" alt="">
+        </section>
+        <!-- second section -->
+        <section class="second-sec display-flex space-between">
+            <div class="who-wa-are display-flex space-between">
+                <h1 class="new-text">Who we are</h1>
+                <p class="new-text">We are a forward-thinking company dedicated to providing innovative solutions that fuel business growth.
+                    With a focus on modern technologies and strategic insights, we help businesses streamline their operations, 
+                    enhance customer experiences, and scale efficiently. Whether you're looking to improve your digital presence, 
+                    optimize processes, or drive new revenue streams</p>
+                    <button onclick="changeTextImg()">Make A Change</button>
+            </div>
+            <img src="./WebFund FSD-PT-OL-04-2025 -images and icons/about.jpg" alt="about">
+        </section>
+        <!-- third section -->
+        <section class="third-section">
+            <div class="our-services display-flex space-between">
+                <h1>Our Services</h1>
+                <button onclick="addSerices()">Add Services</button>
+            </div>
+            <div class="services-cards display-flex space-between">
+                <div class="card display-flex space-between">
+                    <img src="./WebFund FSD-PT-OL-04-2025 -images and icons/values-2.png" alt="values-2">
+                    <p>We provide modern, technology-driven solutions tailored to help you adapt, compete, 
+                        and thrive in an ever-evolving market.</p>
+                </div>
+                <div class="card">
+                    <img src="./WebFund FSD-PT-OL-04-2025 -images and icons/values-1.png" alt="values-1">
+                    <p>Whether you're a startup or an established enterprise, 
+                        we focus on <span>scalable and flexible tools</span> that support growth at every stage.</p>
+                </div>
+                <div class="card">
+                    <img src="./WebFund FSD-PT-OL-04-2025 -images and icons/values-3.png" alt="values-3">
+                    <p>Our services are designed to meet the unique challenges of today while positioning you for tomorrow's opportunities</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
