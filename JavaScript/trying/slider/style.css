@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    margin: 0 auto;
+}
+.w-950{
+    width: 950px;
+}
+.dis-flex{
+    display: flex;
+    align-items: center;
+}
+header{
+    background-color: rgb(255, 10, 10);
+    padding: 15px;
+}
+.nav-li{
+    list-style: none;
+    gap: 10px;
+}
+.nav-li li{
+    gap: 10px;
+}
+.trinding img{
+    width: 190px;
+    height: 300px;
+    transition: all 500ms ease-out;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+.trinding img:hover{
+    width: 210px;
+    
+}
