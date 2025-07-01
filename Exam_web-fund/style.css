@@ -69,6 +69,7 @@ section{
 }
 .who-wa-are{
     width: 430px;
+    padding: 10px;
 }
 .who-wa-are, .card{
     flex-direction: column;
