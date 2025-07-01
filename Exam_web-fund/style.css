@@ -6,6 +6,7 @@ body{
     padding: 10px;
     width: 950px;
     margin: 0 auto;
+    background-image: url("./WebFund FSD-PT-OL-04-2025 -images and icons/hero-bg.png");
 }
 /* display-flex to use it multible times */
 .display-flex{
