@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', monospace;
+}
+body{
+    background-image: url(../assets/imgs/bg2.avif);
+    padding: 20px 30px;
+}
+.display-flex{
+    display: flex;
+}
+.current-page{
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    padding:10px;
+}
+header,.second-nav{
+    flex: 1;
+}
+section,.contant{
+    flex: 4;
+}
+.first-nav{
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+    width: fit-content;
+    list-style: none;
+}
+.second-nav{
+    align-items: center;
+    list-style: none;
+    width: 400px;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+a ,.bio{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+.first-nav li a,.second-nav li{
+    padding: 10px;
+}
+.first-nav li a:hover,.second-nav li:hover{
+    color: black;
+    border-radius: 5px;
+    background-color: rgba(65, 64, 64, 0.173);
+    padding: 10px;
+}
+.bio{
+    width: 130px;
+    font-weight: bold;
+    position: absolute;
+    top: 400x;
+    right: 30px;
+}
+.page-preview{
+    flex-direction: column;
+}
+/* about me styles */
+.card{
+    background-color: rgba(96, 96, 96, 0.659);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    color: white;
+}
+.high-ligth{
+    color: rgb(78, 222, 131);
+    font-weight: bold;
+}
