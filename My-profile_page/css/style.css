@@ -1,3 +1,4 @@
+/* general styles */
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +16,11 @@ body{
     border-radius: 5px;
     font-weight: bold;
     padding:10px;
+}
+/* ------------------- */
+nav{
+    position: sticky;
+    top: 30px;
 }
 header,.second-nav{
     flex: 1;
@@ -42,6 +48,7 @@ a ,.bio{
 }
 .first-nav li a,.second-nav li{
     padding: 10px;
+    cursor: pointer;
 }
 .first-nav li a:hover,.second-nav li:hover{
     color: black;
@@ -60,6 +67,11 @@ a ,.bio{
     flex-direction: column;
 }
 /* about me styles */
+.about-me{
+    display: none;
+    flex-direction: column;
+}
+/* general styles */
 .card{
     background-color: rgba(96, 96, 96, 0.659);
     padding: 20px;
@@ -69,5 +81,92 @@ a ,.bio{
 }
 .high-ligth{
     color: rgb(78, 222, 131);
-    font-weight: bold;
+    font-size: x-large;
+    font-weight: bolder;
+}
+/* ---------------- */
+/* hobbies  styles*/
+.hobbies{
+    display: none;
+    flex-direction: column;
+    width: inherit;
+    justify-content: center;
+    align-items: center;
+}
+.hobbie{
+    padding: 10px;
+    width: 750px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 20px;
+    font-weight: bolder;
+    font-size:  70px;
+    color:rgba(78, 222, 131, 0.633); 
+    /* text outline */
+    -webkit-text-stroke: 1px black;
+    /* background shadow */
+    background-blend-mode: darken ;
+    background: rgba(0,0,0,0.7);
+}
+.foottball{
+    background-image: url(../assets/imgs/football1.JPG);
+    background-size: cover;
+}
+.guitar{
+    background-image: url(../assets/imgs/guitar.jpg);
+    background-size: cover;
+
+}
+.swimming{
+    background-image:url('../assets/imgs/rafting1.jpg');
+    background-size: cover;
+}
+/* skills style */
+.skills-section{
+    display: none;
+    flex-direction: column;
+    align-items:center;
+}
+.skills-section h2{
+    font-size: 50px;
+}
+.skills-category li{
+    margin: 10px;
+    font-size: larger;
+    width: 500px;
+}
+.previous-projects{
+    display: none;
+    flex-direction: column;
+    margin:0 50px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.projects-discription h2{
+    margin-bottom: 20px;
+}
+.project-card{
+    background-color: rgba(96, 96, 96, 0.659);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 0;
+    color: white;
+
+}
+
+.project img{
+    width: 310px;
+    height: 370px;
+    flex: 1;
+    border-radius: 5px;
+}
+.project-info{
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 2;
+    margin: 20px;
+}
+.project-info h1{
+    margin-bottom: 10px;
 }

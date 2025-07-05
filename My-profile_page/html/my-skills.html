@@ -27,12 +27,174 @@
         </header>
         <section class="page-preview display-flex">
             <ol class="second-nav display-flex">
-                <li>Skills List</li>
-                <li>Previous Projects</li>
+                <li class="second-nav-item" onclick="secondNavL()">Skills List</li>
+                <li class="second-nav-item" onclick="secondNavR()">Previous Projects</li>
             </ol>
             <div class="contant">
+                <div class="skills-section display-flex second-nav-lift">
+                    <div>
+                        <div class="skills-category card">
+                            <h3 class="high-ligth">Technical Skills</h3>
+                            <ul>
+                            <li>Full-Stack Web Development</li>
+                            <li>Frontend: HTML, CSS, JavaScript</li>
+                            <li>Backend: Node.js, Express.js</li>
+                            <li>Git & GitHub</li>
+                            <li>Responsive Design</li>
+                            <li>Debugging & Testing</li>
+                            </ul>
+                        </div>
+                        <div class="skills-category card">
+                            <h3 class="high-ligth">Analytical & Thinking</h3>
+                            <ul>
+                            <li>Problem Solving</li>
+                            <li>Logical Thinking</li>
+                            <li>Systematic Approach</li>
+                            <li>Analytical Skills</li>
+                            </ul>
+                        </div>
+                        <div class="skills-category card">
+                            <h3 class="high-ligth">Soft Skills</h3>
+                            <ul>
+                            <li>Leadership & Team Collaboration</li>
+                            <li>Strong Communication</li>
+                            <li>Project Management</li>
+                            <li>Adaptability & Quick Learning</li>
+                            <li>Empathy & User-Centered Thinking</li>
+                            <li>Time Management</li>
+                            </ul>
+                        </div>
+                        <div class="skills-category card">
+                            <h3 class="high-ligth">Personal Strengths (ENFJ)</h3>
+                            <ul>
+                            <li>Receptive & Reliable</li>
+                            <li>Passionate & Charismatic</li>
+                            <li>Altruistic & Visionary</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="previous-projects display-flex second-nav-right">
+                    <div class="projects-discription card">
+                        <h2><span class="high-ligth">Projects (Assignments)</span></h2>
+                        <p>Completed as Part of AXSOS Academy's Web Fundamentals Requirements:
+                            This is a curated list of web development projects I completed during my training at AXSOS Academy. 
+                            These assignments reflect my understanding and application of core web technologies including 
+                            HTML, CSS, JavaScript, and basic front-end development principles.
+                        </p>
+                    </div>
+                    <div onmouseover="exstend(0)" onmouseout="decrease(0)" class="project display-flex project-card">
+                        <img src="../assets/imgs/likes.png" alt="likes-project">
+                        <div class="project-info">
+                            <h1>Likes</h1>
+                            <h2 class="high-ligth">Key Features</h2>
+                            <ul>
+                                <li>A static user profile section with avatar and name.</li>
+                                <li>A feed of three posts, each with a like count and "Like" button.</li>
+                                <li>Clicking the "Like" button updates the count instantly via JavaScript.</li>
+                                <li>The "Like" button includes hover and press visual effects using CSS.</li>
+                            </ul>
+                            <h2 class="high-ligth">Technologies Used</h2>
+                            <ul>
+                                <li>HTML5: Fully semantic, accessible structure.</li>
+                                <li>CSS3: Custom styling with flexbox for layout, styled buttons, user profile card, and responsive text.</li>
+                                <li>JavaScript (Vanilla): Event handling, DOM traversal (closest, querySelector), and dynamic content updates.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div onmouseover="exstend(1)" onmouseout="decrease(1)" class="project display-flex project-card">
+                        <img src="../assets/imgs/profile-page.png" alt="profile-page">
+                        <div class="project-info display-flex">
+                            <h1>Profile Page</h1>
+                            <h2 class="high-ligth">Key Features</h2>
+                            <ul>
+                                <li>Interactive Connection Requests section</li>
+                                <li>Accepting requests increases the "Your Connections" count.</li>
+                                <li>Removing requests decreases the "Requests" count.</li>
+                                <li>Flexbox-based layout with two-column design.</li>
+                                <li>Responsive Header & Navigation bar with styled buttons and active links.</li>
+                                <li>Flexbox-based layout with two-column design.</li>
+                                <li>Profile picture styling and card components.</li>
+                            </ul>
+                            <h2 class="high-ligth">Technologies Used</h2>
+                            <ul>
+                                <li>HTML5: Fully semantic, accessible structure.</li>
+                                <li>CSS3: Custom design with layout, buttons, shadows, colors, and responsiveness.</li>
+                                <li>JavaScript (Vanilla): Event handling, DOM traversal (closest, querySelector), and dynamic content updates.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div onmouseover="exstend(2)" onmouseout="decrease(2)" class="project display-flex project-card">
+                        <img src="../assets/imgs/dojo-weather.png" alt="weather">
+                        <div class="project-info display-flex">
+                            <h1>Dojo Weather</h1>
+                            <h2 class="high-ligth">Key Features</h2>
+                            <ul>
+                                <li>Temperature Unit Toggle: Allows users to switch between Celsius and Fahrenheit. All values update instantly.</li>
+                                <li>City Change Alert: Clicking on city names in the navbar triggers a weather-loading alert using alert().</li>
+                                <li>Cookie Consent Box: A cookie disclaimer with an "Accept" button that removes the box upon click.</li>
+                                <li>Four-Day Forecast Cards: Each day displays:</li>
+                            </ul>
+                            <h2 class="high-ligth">Technologies Used</h2>
+                            <ul>
+                                <li>HTML5: Fully semantic, accessible structure.</li>
+                                <li>CSS3: Custom design with layout, buttons, shadows, colors, and responsiveness.</li>
+                                <li>JavaScript (Vanilla):DOM manipulation using querySelectorAll, innerText, value, remove() ,
+                                    Temperature conversion logic (C ↔ F) with rounding  ,Event handling for dropdowns and buttons</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div onmouseover="exstend(3)" onmouseout="decrease(3)" class="project display-flex project-card">
+                        <img src="../assets/imgs/simple-calculater.png" alt="simple-calculater">
+                        <div class="project-info display-flex">
+                            <h1>Simple Calculater</h1>
+                            <h2 class="high-ligth">Key Features</h2>
+                            <ul>
+                                <li>Basic Arithmetic Support: +, –, ×, ÷, and decimals.</li>
+                                <li>Instant Feedback: Numbers and results update immediately on screen.</li>
+                                <li>Reset Button: A "C" button clears all variables and resets the calculator.</li>
+                                <li>User-Friendly UI:</li>
+                            </ul>
+                            <h2 class="high-ligth">Technologies Used</h2>
+                            <ul>
+                                <li>HTML5: Markup for calculator layout and buttons.</li>
+                                <li>CSS3: Custom styles using Flexbox for button alignment and layout.</li>
+                                <li>
+                                    Handling button events using onclick.
+                                    Managing calculator state with variables (current, temp, operate).
+                                    Parsing and computing numerical values using parseFloat().
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div onmouseover="exstend(4)" onmouseout="decrease(4)" class="project display-flex project-card">
+                        <img src="../assets/imgs/grow-sync.png" alt="grow-sync">
+                        <div class="project-info display-flex">
+                            <h1>Grow Sync</h1>
+                            <h2 class="high-ligth">Key Features</h2>
+                            <ul>
+                                <li>Sticky navigation bar with links.</li>
+                                <li>Attractive intro section with a call-to-action.</li>
+                                <li>Toggle text and image in the "Who we are" section using a button.</li>
+                                <li>Dynamically add service cards to the page.</li>
+                            </ul>
+                            <h2 class="high-ligth">Technologies Used</h2>
+                            <ul>
+                                <li>HTML5 : Semantic structure</li>
+                                <li>CSS3 : Flexbox layout, custom utility classes</li>
+                                <li>
+                                    JavaScript (Vanilla) :
+                                    DOM manipulation: querySelector, createElement, appendChild
+                                    Event handling: onclick, onmouseover, onmouseout
+                                    Logic to toggle content and styles.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
             </div>
+            
         </section>
     </main>
 

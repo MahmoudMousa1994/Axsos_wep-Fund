@@ -23,13 +23,13 @@
                     <img class="profile_pic" src="./imgs and icons/1614265160__images/images/Mahmoud-J.jpg" alt="Mahmoud-J_pic">
                 </div>
                 <div class="user_bio"> 
-                    <h2>Mahmoud Jouma'h</h2> 
+                    <h2 id="change">Mahmoud Jouma'h</h2> 
                     <div class="location">
                         <img class="icons-main" src="./imgs and icons/1614282895__icons/icons/map-marker.png" alt="map-marker">
                         <a id="mylocation" href="https://www.google.com/maps/place/Ramallah/@31.9073509,35.205882,14z/data=!3m1!4b1!4m6!3m5!1s0x1502d54cda2d58d1:0xbf6d4d17cc8b2c76!8m2!3d31.9037641!4d35.2034184!16zL20vMGMxMWw?entry=ttu&g_ep=EgoyMDI1MDUxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Ramallah</a>
                     </div>
                     <p>Developer | Proplem Solver</p>
-                    <div class="edit">
+                    <div class="edit" onclick="changeName()">
                         <img class="icons-main" src="./imgs and icons/1614282895__icons/icons/gear.png" alt="gear">
                         <a href="#">edit profile</a>
                     </div>
@@ -41,7 +41,7 @@
                     <li><strong>FULL STACK</strong> Axsos BootCamp</li>
                     <li id="study_date">May 2025 - Sep 2025</li>
                     <li><strong>IT and communication</strong> at Al-quds open university.</li>
-                    <li><strong>Communications</strong> at Der Dibwan industrial High School.</li>
+                    <li><strong>Telecommunications</strong> at Der Dibwan industrial High School.</li>
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos maxime, nihil voluptate eius cum vero.</li> 
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsum facilis assumenda commodi non 
                         cupiditate obcaecati! Earum temporibus accusantium, sapiente unde omnis delectus sed quidem qui 
@@ -64,8 +64,8 @@
                                 <img class="Connections-imgs" src="./imgs and icons/1614265160__images/images/todd-s.jpg" alt="todd">
                                 <h4>Todd E</h4>
                             </div>
-                            <div class="yes_no_icons">
-                                <img class="Connections-imgs" src="./imgs and icons/1614282895__icons/icons/accept-circle.png" alt="accept-circle">
+                            <div class="yes_no_icons" onclick="removeContact(this)">
+                                <img class="Connections-imgs" src="./imgs and icons/1614282895__icons/icons/accept-circle.png" alt="accept-circle" onclick="addconniction()">
                                 <img class="Connections-imgs" src="./imgs and icons/1614282895__icons/icons/close-circle.png" alt="close-circle">
                             </div>                           
                         </div>
@@ -74,15 +74,15 @@
                                 <img class="Connections-imgs" src="./imgs and icons/1614265160__images/images/phil-s.jpg" alt="phil">
                                 <h4>Phil K</h4>
                             </div>
-                            <div class="yes_no_icons">
-                                <img class="Connections-imgs" src="./imgs and icons/1614282895__icons/icons/accept-circle.png" alt="accept-circle">
+                            <div class="yes_no_icons" onclick="removeContact(this)">
+                                <img class="Connections-imgs" src="./imgs and icons/1614282895__icons/icons/accept-circle.png" alt="accept-circle" onclick="addconniction()">
                                 <img class="Connections-imgs" src="./imgs and icons/1614282895__icons/icons/close-circle.png" alt="close-circle">
                             </div>                           
                         </div>                  
                     </div>
                 </article>
                 <article class="side-bar">
-                    <h4 class="Connections_titles"><span class="Connections_numbers">500+</span> Your Connections</h4>
+                    <h4 class="Connections_titles"><span class="Connections_numbers" id="connections">444</span> Your Connections</h4>
                     <div class="your_connections">
                         <div class="person_pic_and_name">
                             <img class="Connections-imgs" src="./imgs and icons/1614265160__images/images/adrien-s.jpg" alt="adrien">
@@ -106,5 +106,6 @@
             </aside>
         </section>   
     </main>
+    <script src="./script.js"></script>r
 </body>
 </html>
