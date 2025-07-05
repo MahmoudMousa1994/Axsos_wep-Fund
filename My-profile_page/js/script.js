@@ -22,4 +22,6 @@ function exstend(index){
 function decrease(index){
     info[index].style.display = "none"
 }
-
+function projectopen(index){
+    window.location.href = "../assets/projects/Position-Profile_page/index.html";
+}

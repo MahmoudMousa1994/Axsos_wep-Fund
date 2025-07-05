@@ -25,15 +25,26 @@
                 </ul>
             </nav>
         </header>
-        <section class="page-preview display-flex">
-            <ol class="second-nav display-flex">
-                <li>Who am I</li>
-                <li>Hobbies and Interests</li>
-            </ol>
-            <div class="contant">
-
+        <section class="contact-me display-flex">
+            <div class="message-form display-flex">
+                <form action="#" method="POST">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea><br>
+                    <button type="submit">Send</button>
+                </form>
             </div>
-        </section>
+            <div class="my-links">
+                <h3>Or reach me directly:</h3>
+                
+                <p><img src="../assets/icons/outlook-icon.png" alt="outlook" class="connection-links-icon"><a href="mailto:mahmoud.shuman@outlook.com">mahmoud.shuman@outlook.com</a></p>
+                <p><img src="../assets/icons/github.png" alt="outlook" class="connection-links-icon"><a href="https://github.com/MahmoudMousa1994" target="_blank">github.com/MahmoudMousa1994</a></p>
+            </div>
+    </section>
+        
     </main>
 
     <script src="../js/script.js"></script>

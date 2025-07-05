@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 10px;
+    width: 950px;
+    margin: 0 auto;
+    background-image: url("./WebFund FSD-PT-OL-04-2025 -images and icons/hero-bg.png");
+}
+/* display-flex to use it multible times */
+.display-flex{
+    display: flex;
+}
+/* dspace-between to use it multible times */
+.space-between{
+    justify-content: space-between;
+}
+header{
+    background-color: white;
+    position: sticky;
+    top: 10px;
+    padding: 15px;
+}
+.nav-links{
+    list-style: none;
+    gap: 5px;
+}
+.nav-links li{
+    color:rgb(32, 32, 163) ;
+    text-decoration: underline;
+}
+
+.page-title img{
+    width: 40px;
+    height: 30px;
+}
+.page-title h1{
+    color: rgb(32, 32, 163);
+    margin-left: 5px;
+}
+.first-sec{
+    margin-top: 20px;
+}
+.offers{
+    flex-direction: column;
+    height: 250px;
+}
+.offers h1 ,.who-wa-are h1, .our-services h1{
+    color:rgb(27, 27, 147) ;
+}
+.offers button{
+    padding: 2px 5px 2px 20px;
+    width:fit-content;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+.second-sec ,.third-section{
+    border-top: solid;
+}
+section{
+    padding: 10px;
+}
+.second-sec img{
+    width: 420px;
+    height: 400px;
+    margin-left: 20px ;
+}
+.who-wa-are{
+    width: 430px;
+    padding: 10px;
+}
+.who-wa-are, .card{
+    flex-direction: column;
+    align-items: center;
+}
+
+.who-wa-are button , .our-services button{
+    width: fit-content;
+    padding: 2px 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+.our-services{
+    width: 500px;
+}
+.card{
+    padding: 15px;
+    width: 250px;
+}
+.card img{
+    width: 250px;
+}
+span{
+    color: red;
+}
+.services-cards{
+    flex-wrap:wrap;
+}
