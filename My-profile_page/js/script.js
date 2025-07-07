@@ -17,11 +17,22 @@ function secondNavR(){
 // project-info exstend
 var info = document.querySelectorAll(".project-info");
 function exstend(index){
-    info[index].style.display = "inline-block"
+    info[index].style.display = "flex"
 }
 function decrease(index){
     info[index].style.display = "none"
 }
-function projectopen(index){
-    window.location.href = "../assets/projects/Position-Profile_page/index.html";
+// change back ground
+var backGround = document.querySelectorAll('.bg')
+function changeBg(){
+    for (let i = 0; i<backGround.length;i++){
+        setTimeout(() =>{
+            for (let j= 0; j<backGround.length; j++){
+                backGround[j].style.display= "none" ;
+            }
+            backGround[i].style.display= "flex";
+        },i*4000);
+    }
+    setTimeout(changeBg,backGround.length*4000);
 }
+changeBg();

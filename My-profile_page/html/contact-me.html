@@ -17,7 +17,7 @@
                 </div>
             </div>
             <nav>
-                <ul class="first-nav display-flex">
+                <ul class="first-nav display-flex f-column">
                     <li><a href="index.html">Home Page</a></li>
                     <li><a href="about-me.html">About Me</a></li>
                     <li><a href="my-skills.html">My Skills</a></li>
@@ -25,28 +25,25 @@
                 </ul>
             </nav>
         </header>
-        <section class="contact-me display-flex">
-            <div class="message-form display-flex">
-                <form action="#" method="POST">
+        <section class="conictions display-flex">
+            <div class="contact-me display-flex">
+                <form class="message-form display-flex f-column" action="#" method="POST">
                     <label for="name">Name:</label><br>
                     <input type="text" id="name" name="name" required><br>
                     <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email" required><br>
                     <label for="message">Message:</label><br>
                     <textarea id="message" name="message" rows="5" required></textarea><br>
-                    <button type="submit">Send</button>
+                    <button id="submit-btn" type="submit">Send</button>
                 </form>
-            </div>
-            <div class="my-links">
-                <h3>Or reach me directly:</h3>
-                
-                <p><img src="../assets/icons/outlook-icon.png" alt="outlook" class="connection-links-icon"><a href="mailto:mahmoud.shuman@outlook.com">mahmoud.shuman@outlook.com</a></p>
-                <p><img src="../assets/icons/github.png" alt="outlook" class="connection-links-icon"><a href="https://github.com/MahmoudMousa1994" target="_blank">github.com/MahmoudMousa1994</a></p>
+                <div class="my-links display-flex f-column">
+                    <h3>Or reach me directly:</h3>
+                    <a href="mailto:mahmoud.shuman@outlook.com"><img src="../assets/icons/outlook-icon.png" alt="outlook" class="connection-links-icon">mahmoud.shuman@outlook.com</a>
+                    <a href="https://github.com/MahmoudMousa1994" target="_blank"><img src="../assets/icons/github.png" alt="outlook" class="connection-links-icon">github.com/MahmoudMousa1994</a>
+                </div>
             </div>
     </section>
-        
     </main>
-
     <script src="../js/script.js"></script>
 </body>
 </html>
